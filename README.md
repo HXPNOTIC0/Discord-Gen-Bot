@@ -21,10 +21,6 @@
 ## Screenshot
 ![ss](https://repository-images.githubusercontent.com/803993834/39e7da65-32b2-49cc-b832-fce6f563eae0)
 
-## Release
-- 25 Stars For Release ⭐ ✅
-- 50 Stars For V2 ⭐ ❌
-
 ## Functions
 ```yaml
 /add_service {gen_type} {service} {file(optional)} ✅ 
