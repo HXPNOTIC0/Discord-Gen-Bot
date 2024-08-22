@@ -8,7 +8,7 @@
     <a href="https://discord.gg/FaMZ4XtRqR">Discord</a>
   </p>
 </p>
-<h3 align="center";">Please Star To support this project for free! ⭐</h3>
+<h3 align="center";">⭐</h3>
 <h3 align="center";">Linux is Supported! ✅</h3>
 <br/>
 
