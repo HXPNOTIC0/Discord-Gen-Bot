@@ -4,13 +4,13 @@
     <img src="https://nexustools.de/Assets/images/025111e73c9100f75a2f4adfc06161df.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">[Nexus Gen Bot] - discord.gg/nexustools</h3>
+  <h3 align="center">[Hxpnotic Gen Bot] - The best generation bot</h3>
 
   <p align="center">
-    Nexus Gen bot - Take your Gen server to the Next level.
+    Hxpnotic Gen Bot - The best generation bot.
     <br/>
     <br/>
-    <a href="https://discord.gg/nexustools">Discord</a>
+    <a href="https://discord.gg/FaMZ4XtRqR">Discord</a>
   </p>
 </p>
 <h3 align="center";">Please Star To support this project for free! ⭐</h3>
