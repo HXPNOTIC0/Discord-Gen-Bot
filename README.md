@@ -54,27 +54,27 @@ Logs                         ✅
 ```json
 {
     "bot_token": "bot_token",
-    "owner_id": 1234567891011121134,
-    "server_id": 1234567891011121134,
-    "bot_status": "discord.gg/nexustools",
+    "owner_id": 748331104498483201,
+    "server_id": 1197039079917883422,
+    "bot_status": "Hxpnotic Gen On Top",
     "free_gen": {
-        "free_gen_role": 1234567891011121134,
-        "free_gen_channel": 1234567891011121134,
-        "free_gen_status": "discord.gg/nexustools",
-        "status_log_channel": 1234567891011121134,
-        "free_gen_cooldown": 120,
+        "free_gen_role": 1276315471653769280,
+        "free_gen_channel": 1276315964052344833,
+        "free_gen_status": "Hxpnotic Gen On Top",
+        "status_log_channel": 1276317640473968654,
+        "free_gen_cooldown": 200,
         "free_gen_folder": "stocks/stock"
     },
     "boost_gen": {
-        "boost_gen_role": 1234567891011121134,
-        "boost_gen_channel": 1234567891011121134,
-        "boost_gen_cooldown": 60,
+        "boost_gen_role": 1276316719958458472,
+        "boost_gen_channel": 1276316017966059540,
+        "boost_gen_cooldown": 80,
         "boost_gen_folder": "stocks/boost_gen_stock"
     },
     "premium_gen": {
-        "premium_gen_role": 1234567891011121134,
-        "premium_gen_channel": 1234567891011121134,
-        "premium_gen_cooldown": 120,
+        "premium_gen_role": 1276316878389776385,
+        "premium_gen_channel": 1276316057564348416,
+        "premium_gen_cooldown": 30,
         "premium_gen_folder": "stocks/premium_gen_stock"
     },
     "logs": {
