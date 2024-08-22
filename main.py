@@ -36,19 +36,19 @@ async def on_ready():
         description=f"**Commands**:\n```\n/gen [service]\n/stock\n```\n**Settings**:\n```\nYou need to allow Direct Messages from server members to use this bot.\n```\n**Cooldown:**\n```\nThe cooldown is {free_gen_cooldown} seconds.\n```",
         color=0xf43f5e
     )
-    free_channel_embed.set_footer(text="Made by github.com/vatosv2 & discord.gg/nexustools")
+    free_channel_embed.set_footer(text="Hecho por hxpnotic")
     booster_channel_embed = discord.Embed(
         title="How to use Booster gen:",
         description=f"**Commands**:\n```\n/booster_gen [service]\n/booster_stock\n```\n**Settings**:\n```\nYou need to allow Direct Messages from server members to use this bot.\n```\n**Cooldown:**\n```\nThe cooldown is {boost_gen_cooldown} seconds.\n```",
         color=0xf43f5e
     )
-    booster_channel_embed.set_footer(text="Made by github.com/vatosv2 & discord.gg/nexustools")
+    booster_channel_embed.set_footer(text="Hecho por hxpnotic")
     premium_channel_embed = discord.Embed(
         title="How to use Premium gen:",
         description=f"**Commands**:\n```\n/premium_gen [service]\n/premium_stock\n```\n**Settings**:\n```\nYou need to allow Direct Messages from server members to use this bot.\n```\n**Cooldown:**\n```\nThe cooldown is {premium_gen_cooldown} seconds.\n```",
         color=0xf43f5e
     )
-    premium_channel_embed.set_footer(text="Made by github.com/vatosv2 & discord.gg/nexustools")
+    premium_channel_embed.set_footer(text="Hecho por hxpnotic")
     await free_channel.send(embed=free_channel_embed)
     await booster_channel.send(embed=booster_channel_embed)
     await premium_channel.send(embed=premium_channel_embed)
@@ -250,13 +250,13 @@ async def stock(ctx):
             service = service[:-4]
             stock1 += f"**{service}** `{count}` \n"
         embed = discord.Embed(
-            title="Nexus Gen Stock",
+            title="Hxpnotic Gen Stock",
             description=(
                 stock1
             ),
             color=discord.Color.from_rgb(250, 10, 214)
         )
-        embed.set_footer(text="Made by github.com/vatosv2 & discord.gg/nexustools")
+        embed.set_footer(text="Hecho por hxpnotic")
         await ctx.respond(embed=embed, ephemeral=True)
     else:
         await ctx.respond("Wrong channel buddy.", ephemeral=True)
@@ -401,7 +401,7 @@ async def booster_stock(ctx):
             ),
             color=discord.Color.from_rgb(250, 10, 214)
         )
-        embed.set_footer(text="Made by github.com/vatosv2 & discord.gg/nexustools")
+        embed.set_footer(text="Hecho por hxpnotic")
         await ctx.respond(embed=embed, ephemeral=True)
     else:
         await ctx.respond("Wrong channel buddy.", ephemeral=True)
@@ -544,7 +544,7 @@ async def premium_stock(ctx):
             ),
             color=discord.Color.from_rgb(250, 10, 214)
         )
-        embed.set_footer(text="Made by github.com/vatosv2 & discord.gg/nexustools")
+        embed.set_footer(text="Hecho por hxpnotic")
         await ctx.respond(embed=embed, ephemeral=True)
     else:
         await ctx.respond("Wrong channel buddy.", ephemeral=True)
@@ -670,12 +670,12 @@ async def premium_gen(ctx, error):
 #################################################################################################################################################################
 os.system('cls' if os.name == 'nt' else 'clear')
 print(f'''{Fore.LIGHTMAGENTA_EX}
-                    ███╗   ██╗███████╗██╗  ██╗██╗   ██╗███████╗   ████████╗ ██████╗  ██████╗ ██╗     ███████╗  
-                    ████╗  ██║██╔════╝╚██╗██╔╝██║   ██║██╔════╝   ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝      
-                    ██╔██╗ ██║█████╗   ╚███╔╝ ██║   ██║███████╗█████╗██║   ██║   ██║██║   ██║██║     ███████╗       
-                    ██║╚██╗██║██╔══╝   ██╔██╗ ██║   ██║╚════██║╚════╝██║   ██║   ██║██║   ██║██║     ╚════██║       
-                    ██║ ╚████║███████╗██╔╝ ██╗╚██████╔╝███████║      ██║   ╚██████╔╝╚██████╔╝███████╗███████║   
-                    ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
-                                                discord.gg/nexustools
+                    
+                          ██╗░░██╗██╗░░██╗██████╗░███╗░░██╗░█████╗░████████╗██╗░█████╗░
+                          ██║░░██║╚██╗██╔╝██╔══██╗████╗░██║██╔══██╗╚══██╔══╝██║██╔══██╗
+                          ███████║░╚███╔╝░██████╔╝██╔██╗██║██║░░██║░░░██║░░░██║██║░░╚═╝
+                          ██╔══██║░██╔██╗░██╔═══╝░██║╚████║██║░░██║░░░██║░░░██║██║░░██╗
+                          ██║░░██║██╔╝╚██╗██║░░░░░██║░╚███║╚█████╔╝░░░██║░░░██║╚█████╔╝
+                          ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░
     ''')
 bot.run(bot_token)
