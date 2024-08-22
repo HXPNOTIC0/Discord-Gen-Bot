@@ -19,7 +19,7 @@
 <h3 align="center";>  https://nexustools.de/ </h3>
 
 ## Screenshot
-![ss](https://repository-images.githubusercontent.com/803993834/39e7da65-32b2-49cc-b832-fce6f563eae0)
+![ss](https://share.creavite.co/66c7bd226c7836b35c42c3bc.png)
 
 ## Functions
 ```yaml
