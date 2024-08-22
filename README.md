@@ -11,7 +11,7 @@
 <h3 align="center";">Please Star To support this project for free! ⭐</h3>
 <h3 align="center";">Linux is Supported! ✅</h3>
 <br/>
-<h3 align="center";>  https://nexustools.de/ </h3>
+
 
 ## Screenshot
 ![ss](https://share.creavite.co/66c7bd226c7836b35c42c3bc.png)
